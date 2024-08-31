@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/app.css" />
+    <title>Shoppy Store</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="flash-container">
+        <div class="flash-bar container">
+          <div class="flash-text hide-mobile">
+            <img src="./assets/flash.svg" alt="flash-icon" />
+            <span>sale sale!!</span>
+          </div>
+          <div class="flash-text">
+            <img src="./assets/flash.svg" alt="flash-icon" />
+            <span>sale sale!!</span>
+          </div>
+          <div class="flash-text hide-mobile">
+            <img src="./assets/flash.svg" alt="flash-icon" />
+            <span>sale sale!!</span>
+          </div>
+        </div>
+      </div>
+      <div class="top-nav container">
+        <div class="logo">
+          <div class="burger show-mobile hide-desktop">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <img src="./assets/logo.svg" alt="logo" />
+        </div>
+        <h3>Shoppy</h3>
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li class="nav-link">
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+          </li>
+          <li class="nav-link">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+          <li class="nav-link hide-mobile">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+          </li>
+          <li class="nav-link hide-mobile">
+            <span>ENG</span>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom-nav hide-mobile">
+        <ul class="nav-links">
+          <li class="nav-link"><a href="#">Shop</a></li>
+          <li class="nav-link"><a href="#">Skills</a></li>
+          <li class="nav-link"><a href="#">Stories</a></li>
+          <li class="nav-link"><a href="#">About</a></li>
+          <li class="nav-link"><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="secondary-nav hide-desktop show-mobile">
+      <ul class="nav-links">
+        <li><a class="inactive" href="#">Home</a></li>
+        <li><a class="active" href="#">Shop</a></li>
+      </ul>
+    </div>
+
+    <!-- Header -->
+    <header class="header container">
+      <h2 class="header-title">Discover Our Products</h2>
+      <p class="desc">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptate
+        dicta
+      </p>
+      <p class="desc">
+        corporis voluptatem accusantium eum laboriosam qui sint nihil sit!
+      </p>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filter-section container">
+      <div class="left-pane">
+        <div class="total-count hide-mobile">3425 items</div>
+        <div class="filter-btn">
+          <span class="icon hide-mobile"> > </span>
+          <span> <span class="hide-mobile">Show</span> filter</span>
+        </div>
+      </div>
+      <div class="right-pane">
+        <div class="recommended">
+          <span>Recommended</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <main class="products container">
+      <div class="cards"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="left-side">
+            <h5>Be the first to know</h5>
+            <p>Sign up for updates from mettā muse.</p>
+            <div class="input-group">
+              <input type="text" placeholder="Enter your email..." />
+              <button>Subscribe</button>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="contact-us">
+              <h5>Contact Us</h5>
+              <p>+44 221 133 5360</p>
+              <p>customercare@mettamuse.com</p>
+            </div>
+            <div class="currency">
+              <h5>Currency</h5>
+              <div class="currency-container">
+                <div>
+                  <img src="./assets/usa.svg" alt="dollar-currency" />
+                  <li>USD</li>
+                </div>
+                <p>
+                  Transactions will be completed in Euros and a currency
+                  reference is available on hover.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="bottom left">
+            <h5>mettā muse</h5>
+            <ul class="hide-mobile">
+              <li>About Us</li>
+              <li>Stories</li>
+              <li>Artisans</li>
+              <li>Boutiques</li>
+              <li>Contact us</li>
+              <li>EU Compliances Docs</li>
+            </ul>
+          </div>
+          <div class="bottom-center">
+            <h5>Quick Links</h5>
+            <ul class="hide-mobile">
+              <li>Order shipping</li>
+              <li>Join/Login as a Seller</li>
+              <li>Payment & Pricing</li>
+              <li>Return & Refunds</li>
+              <li>FAQ's</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Condition</li>
+            </ul>
+          </div>
+          <div class="bottom right">
+            <div class="bottom-right-top">
+              <h5>Follow us</h5>
+              <div class="hide-mobile">
+                <img src="./assets/instagram.svg" alt="instagram" />
+                <img src="./assets/linkdln.svg" alt="linkdln" />
+              </div>
+            </div>
+            <div class="hide-mobile bottom-right-bottom">
+              <h5>mettā muse Accepts</h5>
+              <div class="accepts">
+                <img src="./assets//payments.svg" alt="payments" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          Copyright &copy; 2023 mettamuse. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
